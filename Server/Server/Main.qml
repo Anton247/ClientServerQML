@@ -17,6 +17,7 @@ Window {
                                      })
         }
     }
+
     ColumnLayout{
         anchors.fill: parent
         ListView{

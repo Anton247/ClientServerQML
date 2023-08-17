@@ -13,7 +13,7 @@ TcpServer::TcpServer(QObject *parent)
 
 void TcpServer::sendMessage(const QString &message)
 {
-  emit newMessage(message.toUtf8());
+  emit newMessage("server: " + message.toUtf8());
 }
 
 void TcpServer::onNewConnection()
